@@ -130,16 +130,73 @@ table {
 * {
   box-sizing: border-box;
 }
+/* Variables*/
 html,
 body {
   height: 100%;
-  max-width: 800px;
-  margin: auto;
+}
+body {
+  width: 1000px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 2rem;
 }
 header nav {
+  margin: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 header nav a {
   text-decoration: none;
+  color: black;
+  padding: 5px;
+  margin: 10px;
+}
+.top-container {
+  background-color: #D8D8D8;
+  width: 100%;
+  height: 600px;
+  margin: 20px;
+}
+.top-container h1 {
+  font-size: 3.5rem;
+}
+.top-container h3 {
+  font-size: 1rem;
+}
+.button {
+  background-color: #808080;
+  padding: 12px 28px;
+  border-radius: 4px;
+  height: 32px;
+  width: 40px;
+  /*fix button height and width*/
+}
+.button a {
+  color: white;
+  text-decoration: none;
+}
+.middle-container {
+  display: flex;
+  padding: 40px;
+}
+.cta {
+  width: 20rem;
+  height: 2.5rem;
+}
+li {
+  border: 0.5px solid lightgray;
+  width: 20rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  list-style-position: inside;
+}
+.table-header {
+  font-weight: bold;
+}
+th {
+  border-top: 0.5px solid lightgray;
+  border-bottom: 0.5px solid lightgray;
 }
