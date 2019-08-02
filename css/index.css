@@ -141,37 +141,48 @@ body {
 }
 h2 {
   font-size: 2rem;
+  margin: 0.2rem;
 }
 header nav {
-  margin: 20px;
+  font-size: 1.25rem;
+  margin: 2rem;
   display: flex;
   justify-content: flex-end;
 }
 header nav a {
   text-decoration: none;
   color: black;
-  padding: 5px;
-  margin: 10px;
+  padding: 0.5rem;
+  margin: 1rem;
 }
 .top-container {
   background-color: #D8D8D8;
+  height: 40rem;
   width: 100%;
-  height: 600px;
-  margin: 20px;
+  padding: 3rem;
 }
 .top-container h1 {
   font-size: 3.5rem;
+  padding: 1rem;
 }
 .top-container h3 {
   font-size: 1rem;
+  padding: 1rem;
+}
+.top-container img {
+  width: 20rem;
+  height: 20rem;
+}
+.top-container p {
+  padding: 1rem;
 }
 .button {
   background-color: #808080;
-  padding: 12px 28px;
-  border-radius: 4px;
-  height: 32px;
-  width: 40px;
-  /*fix button height and width*/
+  padding: 1.2rem 2.8rem;
+  border-radius: 0.4rem;
+  height: 3.2rem;
+  width: 12rem;
+  font-size: 1rem;
 }
 .button a {
   color: white;
@@ -179,24 +190,47 @@ header nav a {
 }
 .middle-container {
   display: flex;
-  padding: 40px;
+  justify-content: space-between;
+  padding: 2rem;
 }
 .cta {
-  width: 20rem;
-  height: 2.5rem;
+  width: 25rem;
+  height: 3.5rem;
+}
+.cta p {
+  line-height: 1.5;
 }
 li {
   border: 0.5px solid lightgray;
-  width: 20rem;
-  height: 2.5rem;
+  width: 25rem;
+  height: 3.5rem;
   display: flex;
   align-items: center;
-  list-style-position: inside;
 }
-.table-header {
+.table table {
+  width: 100%;
+  margin: 0 0 2rem;
+}
+.table table .table-header {
   font-weight: bold;
 }
-th {
+.table table th {
   border-top: 0.5px solid lightgray;
   border-bottom: 0.5px solid lightgray;
+  padding: 1rem;
+}
+.table table tr:nth-child(even) {
+  background-color: #D8D8D8;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #808080;
+  height: 4rem;
+  margin: 0 0 2rem;
+}
+footer p {
+  display: flex;
+  align-items: center;
+  color: white;
 }
