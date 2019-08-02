@@ -1,1 +1,236 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+/* Variables*/
+html,
+body {
+  height: 100%;
+}
+body {
+  width: 1000px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 2rem;
+  margin: 0.2rem;
+}
+header nav {
+  font-size: 1.25rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+.top-container {
+  background-color: #D8D8D8;
+  height: 40rem;
+  width: 100%;
+  padding: 3rem;
+}
+.top-container h1 {
+  font-size: 3.5rem;
+  padding: 1rem;
+}
+.top-container h3 {
+  font-size: 1rem;
+  padding: 1rem;
+}
+.top-container img {
+  width: 20rem;
+  height: 20rem;
+}
+.top-container p {
+  padding: 1rem;
+}
+.button {
+  background-color: #808080;
+  padding: 1.2rem 2.8rem;
+  border-radius: 0.4rem;
+  height: 3.2rem;
+  width: 12rem;
+  font-size: 1rem;
+}
+.button a {
+  color: white;
+  text-decoration: none;
+}
+.middle-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.cta {
+  width: 25rem;
+  height: 3.5rem;
+}
+.cta p {
+  line-height: 1.5;
+}
+li {
+  border: 0.5px solid lightgray;
+  width: 25rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+}
+.table table {
+  width: 100%;
+  margin: 0 0 2rem;
+}
+.table table .table-header {
+  font-weight: bold;
+}
+.table table th {
+  border-top: 0.5px solid lightgray;
+  border-bottom: 0.5px solid lightgray;
+  padding: 1rem;
+}
+.table table tr:nth-child(even) {
+  background-color: #D8D8D8;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #808080;
+  height: 4rem;
+  margin: 0 0 2rem;
+}
+footer p {
+  display: flex;
+  align-items: center;
+  color: white;
+}
